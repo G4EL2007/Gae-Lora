@@ -1,0 +1,18 @@
+MODULOS DE BUSQUEDA AGREGADOS
+
+1. Buscar Alumno
+   - Se solicita el numero de expediente.
+   - La consulta SELECT se ejecuta en AlumnoDAO.buscarPorExpediente().
+   - Si existe, se muestran todos los datos del alumno.
+
+2. Buscar Profesor
+   - Se solicita el numero de empleado.
+   - La consulta SELECT se ejecuta en ProfesorDAO.buscarPorNumEmpleado().
+   - Si existe, se muestran todos los datos del profesor.
+
+Opciones nuevas del menu:
+8.- Buscar Alumno
+9.- Buscar Profesor
+10.- Salir
+
+Las transacciones con MySQL permanecen en las clases DAO.

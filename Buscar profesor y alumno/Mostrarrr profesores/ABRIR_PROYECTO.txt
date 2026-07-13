@@ -1,0 +1,10 @@
+COMO ABRIRLO EN INTELLIJ IDEA
+
+1. Extrae completamente el archivo ZIP.
+2. En IntelliJ selecciona File > Open.
+3. Abre la carpeta Mostrar profesores, donde se encuentra pom.xml.
+4. Espera a que IntelliJ cargue Maven.
+5. Abre src/main/java/org/example/Main.java.
+6. Ejecuta el triangulo verde junto a public static void main(String[] args).
+
+No abras archivos .class. Este proyecto no incluye la carpeta target para evitar esa confusion.
