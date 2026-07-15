@@ -1,0 +1,37 @@
+CAMBIOS REALIZADOS - COMUNIDAD UNIVERSITARIA
+
+Se trabajo sobre el proyecto original sin cambiar la conexion ni las consultas DAO.
+
+1. PersonaUT ahora es una clase abstracta.
+   Archivo: src/main/java/org/example/modelo/PersonaUT.java
+   Se agrego el metodo abstracto mostrarTipoPersona().
+
+2. Alumno hereda de PersonaUT e implementa:
+   - Ensenable: aprender()
+   - Evaluable: recibirEvaluacion()
+   Su metodo toString() llama a mostrarTipoPersona().
+
+3. Profesor hereda de PersonaUT e implementa:
+   - Ensenador: ensenar()
+   - Evaluador: evaluar()
+   Su metodo toString() llama a mostrarTipoPersona().
+
+4. Se crearon las interfaces:
+   - Ensenable.java
+   - Evaluable.java
+   - Ensenador.java
+   - Evaluador.java
+
+5. En Menu.java se agrego el metodo:
+   mostrarComunidadUniversitaria()
+
+   Este metodo obtiene los alumnos con AlumnoDAO y los profesores con ProfesorDAO.
+   Despues los guarda juntos en un ArrayList<PersonaUT>. Esto demuestra el polimorfismo.
+
+6. En el menu se agrego:
+   10.- Mostrar Comunidad Universitaria
+   11.- Salir
+
+IMPORTANTE:
+Las consultas a MySQL siguen dentro de AlumnoDAO y ProfesorDAO. El menu solamente
+recibe las listas y muestra los resultados.

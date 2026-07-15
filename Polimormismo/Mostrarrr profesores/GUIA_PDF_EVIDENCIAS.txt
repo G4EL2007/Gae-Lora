@@ -1,0 +1,28 @@
+GUIA PARA EL PDF DE EVIDENCIAS
+
+Para obtener las pantallas que solicita la profesora:
+
+1. Ejecuta Main.java en IntelliJ.
+2. Asegurate de tener por lo menos un alumno y un profesor guardados en MySQL.
+3. Selecciona la opcion 10: Mostrar Comunidad Universitaria.
+4. Toma una captura donde se vea:
+   - El menu completo.
+   - La opcion 10 seleccionada.
+   - Un registro con "Tipo de persona: Alumno".
+   - Un registro con "Tipo de persona: Profesor".
+   - Las actividades de aprender, recibir evaluacion, ensenar y evaluar.
+5. Pega la captura en Word y escribe debajo:
+
+   Figura 1. Resultado de mostrar a la comunidad universitaria mediante polimorfismo.
+
+6. Puedes agregar esta explicacion debajo de la imagen:
+
+   En esta ejecucion se muestran alumnos y profesores dentro de una misma lista de
+   tipo PersonaUT. Aunque todos se recorren como personas de la universidad, cada
+   objeto muestra la informacion que corresponde a su clase. Con esto se aplica el
+   polimorfismo, porque Alumno y Profesor ejecutan su propia version de los metodos.
+
+7. Guarda el documento desde Word como PDF.
+
+No se incluyeron capturas inventadas en el proyecto, porque la evidencia debe mostrar
+los datos reales de tu base de datos y la ejecucion realizada en tu computadora.
